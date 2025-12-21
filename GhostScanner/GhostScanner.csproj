@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <AssemblyName>GhostScanner</AssemblyName>
+    <RootNamespace>GhostScanner</RootNamespace>
+    <ApplicationIcon>ghost.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+    <Authors>Soul and Lapex</Authors>
+    <Company>Ghost Scanner</Company>
+    <Product>Ghost Scanner - Ultimate AI Helper</Product>
+    <Copyright>Copyright © 2024 Soul and Lapex</Copyright>
+    <Description>Ultimate AI Helper that monitors your screen and provides intelligent assistance</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Update="ghost.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -14,39 +14,37 @@ Ghost Scanner is a native Windows application that monitors your screen and prov
 - **On-Demand Help**: Ask Ghost questions about your screen anytime
 - **Automatic Assistance**: Optional proactive help based on screen activity
 
-## 🚀 Quick Installation
+## 🚀 Super Simple Installation (No Building Required!)
 
-### Step 1: Download
-- Click "Code" → "Download ZIP" on GitHub
-- Extract the ZIP file
+### For End Users (Super Easy!)
 
-### Step 2: Build (One-Time)
-1. Open `GhostScanner.sln` in Visual Studio 2022 (free Community edition)
-2. Press `F6` to build
-3. Done! The .exe is in `GhostScanner\bin\Release\net6.0-windows\GhostScanner.exe`
+1. **Download** this repository (click "Code" → "Download ZIP")
+2. **Extract** the ZIP file to any folder
+3. **Right-click** `INSTALL.bat` → **"Run as administrator"**
+4. **Done!** Ghost Scanner is now installed!
 
-### Step 3: Install
-1. Right-click `INSTALL.bat` → "Run as administrator"
-2. Follow the prompts
-3. Ghost Scanner will be installed to `C:\Program Files\GhostScanner\`
+The installer will:
+- ✅ Install Ghost Scanner to `C:\Program Files\GhostScanner\`
+- ✅ Create a desktop shortcut
+- ✅ Create a Start Menu shortcut
+- ✅ Offer to launch the app immediately
 
-### Step 4: Launch
-- Double-click the desktop shortcut
-- Or run `C:\Program Files\GhostScanner\GhostScanner.exe`
-- The application window opens automatically
+### First Time Setup
 
-### Step 5: Configure
-1. Right-click the system tray icon (👻) → "Configure"
-2. Enter your API key:
-   - **OpenRouter**: https://openrouter.ai (Recommended)
+1. **Launch** Ghost Scanner (desktop shortcut or Start Menu)
+2. **Right-click** the system tray icon (👻) → **"Configure"**
+3. **Enter your API key**:
+   - **OpenRouter**: https://openrouter.ai (Recommended - easier to get)
    - **OpenAI**: https://platform.openai.com
-3. Choose your model (e.g., `openai/gpt-4o-mini`)
-4. Click "Save"
-5. Click "Start Monitoring" in the main window
+4. **Choose your model** (e.g., `openai/gpt-4o-mini`)
+5. **Click "Save"**
+6. **Click "Start Monitoring"** in the main window
 
-## 📖 Usage
+That's it! Ghost is now helping you! 👻
 
-- **Start Monitoring**: Click "Start Monitoring" button
+## 📖 How to Use
+
+- **Start Monitoring**: Click "Start Monitoring" button (or right-click tray icon)
 - **Ask Ghost**: Click "Ask Ghost" to ask questions about your screen
 - **Configure**: Right-click system tray icon → "Configure"
 - **Exit**: Right-click system tray icon → "Exit"
@@ -68,10 +66,10 @@ Ghost Scanner is a native Windows application that monitors your screen and prov
 ## 🛠️ Requirements
 
 - **Windows 10/11**
-- **Visual Studio 2022** (Community Edition - free) for building
-- **.NET 6.0 SDK** (included with Visual Studio)
 - **Internet connection** (for AI API access)
 - **API key** from OpenRouter or OpenAI
+
+**No Visual Studio needed!** The app comes pre-built and ready to use.
 
 ## 📝 License
 
